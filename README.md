@@ -6,7 +6,6 @@ This repository will be the official implementation of paper: "PML: Progressive 
 We would love to share innovations, this work is on the agenda.
 
 ## Experiment
-
 <div>
   <img src=./Curves_Tables/1.png width="750"><br>
   <img src=./Curves_Tables/2.png width="750"><br>
@@ -18,5 +17,13 @@ We would love to share innovations, this work is on the agenda.
 ## Citation
 If you use this code for your research, please cite our paper.
 ```
-@INPROCEEDINGS{9577661,  author={Deng, Zongyong and Liu, Hao and Wang, Yaoxing and Wang, Chenyang and Yu, Zekuan and Sun, Xuehong},  booktitle={2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},   title={PML: Progressive Margin Loss for Long-tailed Age Classification},   year={2021},  volume={},  number={},  pages={10498-10507},  doi={10.1109/CVPR46437.2021.01036}}
+@INPROCEEDINGS{9577661,  
+  author={Deng, Zongyong and Liu, Hao and Wang, Yaoxing and Wang, Chenyang and Yu, Zekuan and Sun, Xuehong},  
+  booktitle={2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},   
+  title={PML: Progressive Margin Loss for Long-tailed Age Classification},   
+  year={2021},  
+  volume={},  
+  number={},  
+  pages={10498-10507},  
+  doi={10.1109/CVPR46437.2021.01036}}
 ```
