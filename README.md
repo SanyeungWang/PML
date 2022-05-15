@@ -6,7 +6,13 @@ This repository will be the official implementation of paper: "PML: Progressive 
 We would love to share innovations, this work is on the agenda.
 
 ## Experiment
-<img src=./Curves_Tables/1.png width="375"><img src=./Curves_Tables/2.png width="375" style="margin-left: 10"><img src=./Curves_Tables/3.png width="375"><img src=./Curves_Tables/4.png width="375" style="margin-left: 10"><img src=./Curves_Tables/5.png width="375">
+<div align="center">
+    <img src=./Curves_Tables/1.png width="750">
+    <img src=./Curves_Tables/2.png width="750">
+    <img src=./Curves_Tables/3.png width="750">
+    <img src=./Curves_Tables/4.png width="750">
+    <img src=./Curves_Tables/5.png width="750">
+</div>
 
 ## Citation
 If you found this code or our work useful, please cite our paper.
