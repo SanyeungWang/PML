@@ -5,6 +5,15 @@ This repository will be the official implementation of paper: "PML: Progressive 
 
 We would love to share innovations, this work is on the agenda.
 
+## Training
+We use (SNMC) Single Node Multi-GPU Cards Training (with DistributedDataParallel) to get better performance.
+```
+python -m torch.distributed.launch --nproc_per_node=2 --master_port 29502 path_of_train.py --config path_of_exp_margin.yml
+```
+
+## Test
+We test while training to save best model.
+
 ## Experiment
 <div align="center">
     <img src=./Curves_Tables/1.png width="750">
