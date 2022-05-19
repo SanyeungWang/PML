@@ -1,0 +1,30 @@
+log:
+  output_dir: './out'
+
+dataset:
+  train_img: './DATASETS/ChaLearn/Train_Val'
+  train_label: './DATASETS/ChaLearn/ChaLearn15_csv/train_vailidation.csv'
+  val_img: './DATASETS/ChaLearn/Test'
+  val_label: './DATASETS/ChaLearn/ChaLearn15_csv/test.csv'
+
+train:
+  lr: 1e-4
+  epochs: 300
+  train_batch_size: 128
+  val_batch_size: 128
+  optimizer: 'SGD'
+  warmup_epoch : 50
+
+model:
+  dataset_name: 'ChaLearn_margin'
+  margin: True
+  finetune_factor: 0.1
+  pretrained: True
+  pretrained_path: './out/imdb/imdb_crop_Resnet34/6.465/best.pth'
+
+
+
+
+
+
+

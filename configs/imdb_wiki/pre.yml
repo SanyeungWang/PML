@@ -1,0 +1,31 @@
+log:
+  output_dir: './out/imdb'
+
+dataset:
+  train_img: './DATASETS/IMDB_WIKI/IMDB_WIKI_183694'
+  train_label: './DATASETS/IMDB_WIKI/IMDB_csv/imdb_train.csv'
+  val_img: './DATASETS/IMDB_WIKI/IMDB_WIKI_183694'
+  val_label: './DATASETS/IMDB_WIKI/IMDB_csv/imdb_val.csv'
+
+train:
+  lr: 5e-6
+  epochs: 500
+  train_batch_size: 800
+  val_batch_size: 800
+  optimizer: 'SGD'
+  warmup_epoch : 60
+
+model:
+  dataset_name: 'imdb_crop'
+  margin: True
+  pretrained: True
+  finetune_factor: 1.
+  pretrained_path: './out/imdb/imdb_crop_Resnet34/6.465/best.pth'
+
+
+
+
+
+
+
+

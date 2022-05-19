@@ -1,0 +1,29 @@
+log:
+  output_dir: './out/morph'
+
+dataset:
+  train_img: './DATASETS/MORPH/MORPH'
+  train_label: './DATASETS/MORPH/morph_csv/morph_train.csv'
+  val_img: './DATASETS/MORPH/MORPH'
+  val_label: './DATASETS/MORPH/morph_csv/morph_val.csv'
+
+train:
+  lr: 1e-4
+  epochs: 300
+  train_batch_size: 800
+  val_batch_size: 800
+  optimizer: 'ADAM'
+  warmup_epoch : 30
+
+model:
+  dataset_name: 'morph_crop'
+  margin: False
+  pretrained: False
+  pretrained_path: './out/imdb/imdb_margin_Resnet34/5.765/best.pth'
+
+
+
+
+
+
+

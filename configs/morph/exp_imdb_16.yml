@@ -1,0 +1,30 @@
+log:
+  output_dir: './out/morph'
+
+dataset:
+  train_img: './DATASETS/MORPH/MORPH'
+  train_label: './DATASETS/MORPH/morph_csv/morph_train.csv'
+  val_img: './DATASETS/MORPH/MORPH'
+  val_label: './DATASETS/MORPH/morph_csv/morph_val.csv'
+
+train:
+  lr: 6e-4
+  epochs: 350
+  train_batch_size: 600
+  val_batch_size: 600
+  optimizer: 'SGD'
+  warmup_epoch : 50
+
+model:
+  dataset_name: 'morph_imdb16crop'
+  margin: True
+  pretrained: True
+  finetune_factor: 1.
+  pretrained_path: './out/imdb/imdb_16crop_Resnet34/6.790/checkpoint.pth.tar'
+
+
+
+
+
+
+
