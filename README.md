@@ -2,7 +2,10 @@
 This repository will be the official implementation of paper: "PML: Progressive Margin Loss for Long-tailed Age Classification"(CVPR 2021)
 [[Paper(CVF)]](https://openaccess.thecvf.com/content/CVPR2021/html/Deng_PML_Progressive_Margin_Loss_for_Long-Tailed_Age_Classification_CVPR_2021_paper.html)
 [[Paper(arXiv)]](https://arxiv.org/abs/2103.02140)
-<img src=./flowchart.png width="800">
+
+<div align="center">
+ <img src=./flowchart.png>
+</div>
 
 ## Datasets
 [[_Morph II_]](https://paperswithcode.com/dataset/morph) |
