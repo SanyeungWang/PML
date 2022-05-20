@@ -4,7 +4,7 @@ This repository will be the official implementation of paper: "PML: Progressive 
 [[Paper(arXiv)]](https://arxiv.org/abs/2103.02140)
 
 <div align="center">
- <img src=./flowchart.png>
+    <img src=./flowchart.png>
 </div>
 
 ## Datasets
@@ -24,11 +24,14 @@ We test while training to save the best model.
 
 ## Experiment
 <div align="center">
-    <img src=./Curves_Tables/1.png width="375">
-    <img src=./Curves_Tables/2.png width="375">
-    <img src=./Curves_Tables/3.png width="375">
-    <img src=./Curves_Tables/4.png width="375">
-    <img src=./Curves_Tables/5.png width="375">
+    <img src=./Curves_Tables/1.png width="400">
+    <img src=./Curves_Tables/2.png width="400">
+    <img src=./Curves_Tables/3.png width="400">
+    <img src=./Curves_Tables/4.png width="400">
+</div>
+
+<div align="center">
+    <img src=./Curves_Tables/5.png width="400">
 </div>
 
 ## Citation
