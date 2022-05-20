@@ -31,7 +31,7 @@ We test while training to save the best model.
 </div>
 
 <div>
-    <img src=./Curves_Tables/5.png width="400">
+    <img src=./Curves_Tables/5.png width="400" margin-left="30px">
 </div>
 
 ## Citation
