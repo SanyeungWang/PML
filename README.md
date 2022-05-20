@@ -30,7 +30,7 @@ We test while training to save the best model.
     <img src=./Curves_Tables/4.png width="400">
 </div>
 
-<div align="center">
+<div>
     <img src=./Curves_Tables/5.png width="400">
 </div>
 
