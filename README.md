@@ -24,11 +24,11 @@ We test while training to save the best model.
 
 ## Experiment
 <div align="center">
-    <img src=./Curves_Tables/1.png width="750">
-    <img src=./Curves_Tables/2.png width="750">
-    <img src=./Curves_Tables/3.png width="750">
-    <img src=./Curves_Tables/4.png width="750">
-    <img src=./Curves_Tables/5.png width="750">
+    <img src=./Curves_Tables/1.png>
+    <img src=./Curves_Tables/2.png>
+    <img src=./Curves_Tables/3.png>
+    <img src=./Curves_Tables/4.png>
+    <img src=./Curves_Tables/5.png>
 </div>
 
 ## Citation
