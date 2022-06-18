@@ -1,5 +1,5 @@
 # PML: Progressive Margin Loss for Long-tailed Age Classification
-This repository will be the official implementation of paper: "PML: Progressive Margin Loss for Long-tailed Age Classification"(CVPR 2021)
+This repository is the official implementation of paper: "PML: Progressive Margin Loss for Long-tailed Age Classification"(CVPR 2021)
 [[Paper(CVF)]](https://openaccess.thecvf.com/content/CVPR2021/html/Deng_PML_Progressive_Margin_Loss_for_Long-Tailed_Age_Classification_CVPR_2021_paper.html)
 [[Paper(arXiv)]](https://arxiv.org/abs/2103.02140)
 
@@ -22,7 +22,7 @@ We use (SNMC) Single Node Multi-GPU Cards training (with DistributedDataParallel
 ## Testing
 We test while training to save the best model.
 
-## Experiment
+## Experiments
 <div align="center">
     <img src=./Curves_Tables/1.png width="400">
     <img src=./Curves_Tables/2.png width="400">
