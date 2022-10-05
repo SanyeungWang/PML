@@ -23,7 +23,8 @@ We use (SNMC) Single Node Multi-GPU Cards training (with DistributedDataParallel
 We test while training to save the best model.
 
 __Update: Add more test files__  
-Different test methods will lead to different test results. For example, the result of batch test is better than that of single image test. The test_save_npz_plot.py can achieve the lowest MAE. If you have any problems, please feel free to contact us on our email or open an issue.
+Different test methods will lead to different test results. For example, the result of batch test is better than that of single image test. The test_save_npz_plot.py can achieve the lowest MAE.  
+__If you have any problems, please feel free to contact us on our email or open an issue.__
 
 ## Experiments
 <div align="center">
