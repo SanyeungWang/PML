@@ -22,8 +22,13 @@ We use (SNMC) Single Node Multi-GPU Cards training (with DistributedDataParallel
 ## Testing
 We test while training to save the best model.
 
-__Update: Add more test files__  
+__Update(2022.10.05): Add more test files__  
 Different test methods will lead to different test results. For example, the result of batch test is better than that of single image test. The test_save_npz_plot.py can achieve the lowest MAE.
+```
+ages = torch.sum(outputs * torch.Tensor([i for i in range(101)]).cuda(), dim=1)
+error = abs(ages - age).cpu().clone().detach().numpy()
+print('current mae {}'.format(np.mean(error)))
+```
 
 __If you have any problems, please feel free to contact us on our email or open an issue.__
 
