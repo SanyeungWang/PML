@@ -82,7 +82,7 @@ def main():
                                        batch_size=cfg.train.val_batch_size,
                                        num_workers=cfg.model.nThread,
                                        sampler=val_sampler,
-                                       drop_last=True
+                                       drop_last=False
                                        )
 
     model = resnet34(pretrained=True)
