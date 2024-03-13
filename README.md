@@ -8,29 +8,22 @@ This repository is the official implementation of paper: "PML: Progressive Margi
 </div>
 
 ## Datasets
-[[_Morph II_]](https://paperswithcode.com/dataset/morph) |
-[[_FG-NET_]](https://paperswithcode.com/dataset/fg-net) |
-[[_ChaLearn LAP 2015_]](http://chalearnlap.cvc.uab.es/dataset/18/description/) |
+[[_Morph II_]](https://paperswithcode.com/dataset/morph)
+[[_FG-NET_]](https://paperswithcode.com/dataset/fg-net)
+[[_ChaLearn LAP 2015_]](http://chalearnlap.cvc.uab.es/dataset/18/description/)
 [[_IMDB-WIKI_]](https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/)
 
 ## Training
 We use (SNMC) Single Node Multi-GPU Cards training (with DistributedDataParallel) to get better performance.
 ```
- python -m torch.distributed.launch --nproc_per_node=2  --master_port 29502 ./train.py  --config ./configs/chalearn/exp_margin.yml
+ python -m torch.distributed.launch --nproc_per_node=2  --master_port 29502 train.py  --config configs/chalearn/exp_margin.yml
 ```
 
 ## Testing
-We test while training to save the best model.
-
-__Update(2022.10.05): Add more test files__  
-Different test methods will lead to different test results. For example, the result of batch test is better than that of single image test. The test_save_npz_plot.py can achieve the lowest MAE.
+We test while training to save the best model, the results can be reproduced with the command below.
+```c
+python test.py
 ```
-ages = torch.sum(outputs * torch.Tensor([i for i in range(101)]).cuda(), dim=1)
-error = abs(ages - age).cpu().clone().detach().numpy()
-print('current mae {}'.format(np.mean(error)))
-```
-
-__If you have any problems, please feel free to contact us on our email or open an issue.__
 
 ## Experiments
 <div align="center">
